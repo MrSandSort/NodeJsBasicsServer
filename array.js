@@ -25,3 +25,22 @@ topCities.pop()
 
 console.log(topCities)
 console.log(hardCopyCities)
+
+
+// merging two arrays
+
+let europeanCities=["Paris","Rome"]
+let asianCities=["Tokyo", "Bangkok"]
+
+let worldCities= europeanCities.concat(asianCities)
+
+console.log(worldCities)
+
+
+// finding the items in array
+
+let cityBucketList=["Kyoto","London","Capetown","Vancouver"]
+
+let isLondonInList= cityBucketList.includes("London")
+
+console.log(isLondonInList)
