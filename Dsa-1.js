@@ -39,6 +39,35 @@ function decoding(id){
     return decoded
 }
 
-console.log(encoding(453333))
-console.log(decoding("bURv"))
+// console.log(encoding(453333))
+// console.log(decoding("bURv"))
 // console.log(reversedWord("sandesh"))
+
+
+
+/*
+
+Writing slice function from scratch
+
+--> check for beginIndex and endIndex
+--> if found begin index, set endIndex as a size of an array
+--> if both begin and end index is specified return the part of the array and push it to an array
+
+*/
+
+
+
+function arraySlice(arr, firstIndex, lastIndex){
+    if(!firstIndex && !lastIndex){
+        return arr
+    }
+
+    var partArray=[]
+
+    for(var i=firstIndex; i<lastIndex; i++){
+       partArray.push(arr[i])
+    }
+    return partArray
+}
+
+// console.log(arraySlice([1,2,3,4],1,3))
