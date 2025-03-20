@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # NodeJsBasicsServer
-Http based server setup for node js with a nodemon package for realtime update
-=======
+
 # Node.js File System & HTTP Server
 
 This project demonstrates the usage of:
