@@ -20,7 +20,6 @@ const result= words.filter(word=>word.length>5)
 
 console.log(result)
 
-
 const arr2=["sandesh","sundar","habibi","ayush","allahuu"]
 
 const list= arr2.join("-") // join method

@@ -44,3 +44,11 @@ let cityBucketList=["Kyoto","London","Capetown","Vancouver"]
 let isLondonInList= cityBucketList.includes("London")
 
 console.log(isLondonInList)
+
+
+
+const squareNum=(arr)=>(arr.map((n)=>n**2))
+console.log(squareNum([1,2,4]))
+
+const sumPositiveNumbers=(arr)=>(arr.filter(num=> num>0).reduce((sum,num)=>sum+num,0))
+console.log(sumPositiveNumbers([1,-1,2,-2]))
