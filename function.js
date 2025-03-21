@@ -47,3 +47,6 @@ const mergedObj= [obj1, obj2, obj3].reduce((acc, cur)=>{
 
 console.log(mergedObj)
 
+
+var n= Math.floor(Math.random()*100)+1
+console.log(n)

@@ -23,3 +23,4 @@ const readContentFromFile= fs.readFileSync(filePath,'utf8');
 console.log("File Content:", readContentFromFile)
 
 
+
